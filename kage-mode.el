@@ -29,6 +29,9 @@
 ;; SPDX-License-Identifier: GPL-3.0
 
 
+;; add dependency
+(require 'go-mode)
+
 ;; kage-mode is simply derived from go-mode
 (define-derived-mode kage-mode go-mode "Kage shader script"
   "Major mode for editing Ebitengine Kage shader files.
