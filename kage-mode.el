@@ -42,8 +42,7 @@ are go compatible.
 It also supports the use of gofmt -s. If you want to use it, add this
 to your config:
 
-\(add-hook 'before-save-hook #'kage-gofmt-before-save)"
-  (run-hooks 'kage-mode-hook))
+\(add-hook 'before-save-hook #'kage-gofmt-before-save)")
 
 ;; we need to have  our own call to gofmt, because  the one in go-mode
 ;; only works with *.go files, but we use the original call to it anyway
