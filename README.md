@@ -24,7 +24,7 @@ This is my configuration for kage-mode:
 (use-package kage-mode
   :ensure nil         ;; installed locally in site-lisp
   :defer nil
-  :mode "\\.kg\\'"    ;; you must use a different suffix for kage files!
+  :mode "\\.kage\\'"    ;; you must use a different suffix for kage files!
   :commands kage-gofmt-before-save
 
   :init
